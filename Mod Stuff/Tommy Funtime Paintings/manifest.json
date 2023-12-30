@@ -1,0 +1,10 @@
+{
+  "name": "TommyFunPaintingsandPosters",
+  "version_number": "1.0.4",
+  "website_url": "",
+  "description": "Adds some Fun Fun Fun paintings! PLEASE IGNORE THIS IT IS ONLY MEANT FOR MY FRIENDS AND I",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "femboytv-LethalPaintings-1.0.3"
+  ]
+}
