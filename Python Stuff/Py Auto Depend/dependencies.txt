@@ -247,4 +247,4 @@
 "domkalanus-lethalinsurance-1.2.0",
 "MoonriseProject-Springfield-1.0.1",
 "Owen3H-MovementCompany_Enhanced-1.1.0",
-"FutureSavior-Hold_Scan_Button-1.1.1",
+"FutureSavior-Hold_Scan_Button-1.1.1"

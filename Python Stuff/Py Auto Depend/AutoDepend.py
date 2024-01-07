@@ -1,7 +1,10 @@
 def main():
-    filename = "mods.txt"
-    writename = "dependencies.txt"
+    filename = "Python Stuff\Py Auto Depend\mods.txt"
+    writename = "Python Stuff\Py Auto Depend\dependencies.txt"
     ignorelist = ["TacoTank-TommyFun","FreeCammer","GameMaster"]
+
+    isFirst = True
+
     fd = open(filename,"r")
     mods = fd.readlines()
     fd.close()
@@ -13,8 +16,12 @@ def main():
                 ignore = True
                 break
         if not ignore:
-            fd.write("\"" + mod.strip() + "\"" + ",")
-            fd.write("\n")
+            if isFirst:
+                fd.write(f"\"{mod.strip()}\"")
+                isFirst = False
+            else:
+                fd.write(f",\n")
+                fd.write(f"\"{mod.strip()}\"")
     print("Done!")
     
 main()
